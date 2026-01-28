@@ -1,0 +1,1166 @@
+{
+  "Estadio Pocitos": {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "lat": -34.9167,
+    "lon": -56.1428
+  },
+  "Estadio Gran Parque Central": {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "lat": -34.8938,
+    "lon": -56.1561
+  },
+  "Estadio Centenario": {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "lat": -34.8941,
+    "lon": -56.1522
+  },
+  "Stadio Benito Mussolini": {
+    "city": "Turin",
+    "country": "Italy",
+    "lat": 45.0625,
+    "lon": 7.6528
+  },
+  "Stadio Littorio": {
+    "city": "Trieste",
+    "country": "Italy",
+    "lat": 45.6494,
+    "lon": 13.7768
+  },
+  "Stadio Giovanni Berta": {
+    "city": "Florence",
+    "country": "Italy",
+    "lat": 43.7803,
+    "lon": 11.2325
+  },
+  "Stadio Giorgio Ascarelli": {
+    "city": "Naples",
+    "country": "Italy",
+    "lat": 40.8279,
+    "lon": 14.1926
+  },
+  "Stadio Nazionale PNF": {
+    "city": "Rome",
+    "country": "Italy",
+    "lat": 41.9342,
+    "lon": 12.4554
+  },
+  "Stadio Luigi Ferraris": {
+    "city": "Genoa",
+    "country": "Italy",
+    "lat": 44.4166,
+    "lon": 8.9525
+  },
+  "Stadio Renato Dall'Ara": {
+    "city": "Bologna",
+    "country": "Italy",
+    "lat": 44.4925,
+    "lon": 11.3097
+  },
+  "San Siro": {
+    "city": "Milan",
+    "country": "Italy",
+    "lat": 45.4781,
+    "lon": 9.1240
+  },
+  "Parc des Princes": {
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.8414,
+    "lon": 2.2531
+  },
+  "Stade du T.O.E.C.": {
+    "city": "Toulouse",
+    "country": "France",
+    "lat": 43.5833,
+    "lon": 1.4089
+  },
+  "Stade Olympique de Colombes": {
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.9267,
+    "lon": 2.2553
+  },
+  "Velodrome Municipal": {
+    "city": "Reims",
+    "country": "France",
+    "lat": 49.2461,
+    "lon": 4.0247
+  },
+  "Stade Velodrome": {
+    "city": "Marseille",
+    "country": "France",
+    "lat": 43.2697,
+    "lon": 5.3958
+  },
+  "Stade de la Meinau": {
+    "city": "Strasbourg",
+    "country": "France",
+    "lat": 48.5600,
+    "lon": 7.7553
+  },
+  "Stade Jules Deschaseaux": {
+    "city": "Le Havre",
+    "country": "France",
+    "lat": 49.4947,
+    "lon": 0.1608
+  },
+  "Stade du Parc Lescure": {
+    "city": "Bordeaux",
+    "country": "France",
+    "lat": 44.8975,
+    "lon": -0.5611
+  },
+  "Stade Victor Boucquey": {
+    "city": "Lille",
+    "country": "France",
+    "lat": 50.6117,
+    "lon": 3.1311
+  },
+  "Stade du Fort Carre": {
+    "city": "Antibes",
+    "country": "France",
+    "lat": 43.5814,
+    "lon": 7.1247
+  },
+  "Maracana": {
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "lat": -22.9122,
+    "lon": -43.2302
+  },
+  "Estádio do Maracanã": {
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "lat": -22.9122,
+    "lon": -43.2302
+  },
+  "Est�dio do Maracan�": {
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "lat": -22.9122,
+    "lon": -43.2302
+  },
+  "Est�dio Independ�ncia": {
+    "city": "Belo Horizonte",
+    "country": "Brazil",
+    "lat": -19.8658,
+    "lon": -43.9708
+  },
+  "Est�dio Eucaliptos": {
+    "city": "Porto Alegre",
+    "country": "Brazil",
+    "lat": -29.7174,
+    "lon": -53.7157
+  },
+  "Est�dio Pacaembu": {
+    "city": "Sao Paulo",
+    "country": "Brazil",
+    "lat": -23.5455,
+    "lon": -46.6634
+  },
+  "Est�dio Ilha do Retiro": {
+    "city": "Recife",
+    "country": "Brazil",
+    "lat": -8.0594,
+    "lon": -34.8977
+  },
+  "Est�dio Durival Britto": {
+    "city": "Curitiba",
+    "country": "Brazil",
+    "lat": -25.4490,
+    "lon": -49.2769
+  },
+  "Pacaembu": {
+    "city": "Sao Paulo",
+    "country": "Brazil",
+    "lat": -23.5450,
+    "lon": -46.6631
+  },
+  "Estadio Durival Britto": {
+    "city": "Curitiba",
+    "country": "Brazil",
+    "lat": -25.4489,
+    "lon": -49.2764
+  },
+  "Estadio dos Eucaliptos": {
+    "city": "Porto Alegre",
+    "country": "Brazil",
+    "lat": -30.0658,
+    "lon": -51.2092
+  },
+  "Estadio Independencia": {
+    "city": "Belo Horizonte",
+    "country": "Brazil",
+    "lat": -19.8633,
+    "lon": -43.9686
+  },
+  "Estadio Ilha do Retiro": {
+    "city": "Recife",
+    "country": "Brazil",
+    "lat": -8.0597,
+    "lon": -34.9003
+  },
+  "Wankdorf Stadium": {
+    "city": "Bern",
+    "country": "Switzerland",
+    "lat": 46.9633,
+    "lon": 7.4647
+  },
+  "St. Jakob Stadium": {
+    "city": "Basel",
+    "country": "Switzerland",
+    "lat": 47.5417,
+    "lon": 7.6208
+  },
+  "Charmilles Stadium": {
+    "city": "Geneva",
+    "country": "Switzerland",
+    "lat": 46.1889,
+    "lon": 6.1294
+  },
+  "Hardturm": {
+    "city": "Zurich",
+    "country": "Switzerland",
+    "lat": 47.3906,
+    "lon": 8.5094
+  },
+  "Cornaredo Stadium": {
+    "city": "Lugano",
+    "country": "Switzerland",
+    "lat": 46.0417,
+    "lon": 8.9489
+  },
+  "Olympic Stadium Lausanne": {
+    "city": "Lausanne",
+    "country": "Switzerland",
+    "lat": 46.5339,
+    "lon": 6.6106
+  },
+  "Rasunda Stadium": {
+    "city": "Stockholm",
+    "country": "Sweden",
+    "lat": 59.3697,
+    "lon": 18.0003
+  },
+  "Ullevi": {
+    "city": "Gothenburg",
+    "country": "Sweden",
+    "lat": 57.7064,
+    "lon": 11.9869
+  },
+  "Ryavallen": {
+    "city": "Boras",
+    "country": "Sweden",
+    "lat": 57.7272,
+    "lon": 12.9364
+  },
+  "Arosvallen": {
+    "city": "Vasteras",
+    "country": "Sweden",
+    "lat": 59.6092,
+    "lon": 16.5528
+  },
+  "Eyravallen": {
+    "city": "Orebro",
+    "country": "Sweden",
+    "lat": 59.2733,
+    "lon": 15.2139
+  },
+  "Idrottsparken": {
+    "city": "Norrkoping",
+    "country": "Sweden",
+    "lat": 58.5936,
+    "lon": 16.1883
+  },
+  "Jernvallen": {
+    "city": "Sandviken",
+    "country": "Sweden",
+    "lat": 60.6169,
+    "lon": 16.7728
+  },
+  "Malmo Stadion": {
+    "city": "Malmo",
+    "country": "Sweden",
+    "lat": 55.5842,
+    "lon": 13.0003
+  },
+  "Estadio Sausalito": {
+    "city": "Vina del Mar",
+    "country": "Chile",
+    "lat": -33.0417,
+    "lon": -71.6203
+  },
+  "Estadio Nacional": {
+    "city": "Santiago",
+    "country": "Chile",
+    "lat": -33.4647,
+    "lon": -70.6106
+  },
+  "Estadio Braden Copper": {
+    "city": "Rancagua",
+    "country": "Chile",
+    "lat": -34.1703,
+    "lon": -70.7406
+  },
+  "Estadio Carlos Dittborn": {
+    "city": "Arica",
+    "country": "Chile",
+    "lat": -18.4783,
+    "lon": -70.2978
+  },
+  "Wembley Stadium": {
+    "city": "London",
+    "country": "England",
+    "lat": 51.5561,
+    "lon": -0.2797
+  },
+  "White City Stadium": {
+    "city": "London",
+    "country": "England",
+    "lat": 51.5119,
+    "lon": -0.2311
+  },
+  "Old Trafford": {
+    "city": "Manchester",
+    "country": "England",
+    "lat": 53.4631,
+    "lon": -2.2914
+  },
+  "Goodison Park": {
+    "city": "Liverpool",
+    "country": "England",
+    "lat": 53.4389,
+    "lon": -2.9664
+  },
+  "Hillsborough": {
+    "city": "Sheffield",
+    "country": "England",
+    "lat": 53.4114,
+    "lon": -1.5008
+  },
+  "Villa Park": {
+    "city": "Birmingham",
+    "country": "England",
+    "lat": 52.5094,
+    "lon": -1.8850
+  },
+  "Roker Park": {
+    "city": "Sunderland",
+    "country": "England",
+    "lat": 54.9142,
+    "lon": -1.3739
+  },
+  "Ayresome Park": {
+    "city": "Middlesbrough",
+    "country": "England",
+    "lat": 54.5653,
+    "lon": -1.2211
+  },
+  "Estadio Azteca": {
+    "city": "Mexico City",
+    "country": "Mexico",
+    "lat": 19.3031,
+    "lon": -99.1506
+  },
+  "Estadio Jalisco": {
+    "city": "Guadalajara",
+    "country": "Mexico",
+    "lat": 20.6689,
+    "lon": -103.3233
+  },
+  "Estadio Cuauhtemoc": {
+    "city": "Puebla",
+    "country": "Mexico",
+    "lat": 19.0508,
+    "lon": -98.2081
+  },
+  "Estadio Nou Camp": {
+    "city": "Leon",
+    "country": "Mexico",
+    "lat": 21.1447,
+    "lon": -101.6717
+  },
+  "Estadio Luis Dosal": {
+    "city": "Toluca",
+    "country": "Mexico",
+    "lat": 19.2886,
+    "lon": -99.6678
+  },
+  "Olympiastadion": {
+    "city": "Munich",
+    "country": "West Germany",
+    "lat": 48.1747,
+    "lon": 11.5494
+  },
+  "Parkstadion": {
+    "city": "Gelsenkirchen",
+    "country": "West Germany",
+    "lat": 51.5550,
+    "lon": 7.0678
+  },
+  "Niedersachsenstadion": {
+    "city": "Hanover",
+    "country": "West Germany",
+    "lat": 52.3600,
+    "lon": 9.7317
+  },
+  "Volksparkstadion": {
+    "city": "Hamburg",
+    "country": "West Germany",
+    "lat": 53.5872,
+    "lon": 9.8989
+  },
+  "Neckarstadion": {
+    "city": "Stuttgart",
+    "country": "West Germany",
+    "lat": 48.7925,
+    "lon": 9.2322
+  },
+  "Rheinstadion": {
+    "city": "Dusseldorf",
+    "country": "West Germany",
+    "lat": 51.2619,
+    "lon": 6.7331
+  },
+  "Waldstadion": {
+    "city": "Frankfurt",
+    "country": "West Germany",
+    "lat": 50.0686,
+    "lon": 8.6453
+  },
+  "Westfalenstadion": {
+    "city": "Dortmund",
+    "country": "West Germany",
+    "lat": 51.4925,
+    "lon": 7.4517
+  },
+  "Rosengard": {
+    "city": "Malmo",
+    "country": "West Germany",
+    "lat": 55.5842,
+    "lon": 13.0003
+  },
+  "Estadio Monumental": {
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "lat": -34.5453,
+    "lon": -58.4497
+  },
+  "Estadio Jose Amalfitani": {
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "lat": -34.6322,
+    "lon": -58.5194
+  },
+  "Estadio Ciudad de La Plata": {
+    "city": "La Plata",
+    "country": "Argentina",
+    "lat": -34.9067,
+    "lon": -57.9322
+  },
+  "Estadio Gigante de Arroyito": {
+    "city": "Rosario",
+    "country": "Argentina",
+    "lat": -32.9169,
+    "lon": -60.6658
+  },
+  "Estadio Chateau Carreras": {
+    "city": "Cordoba",
+    "country": "Argentina",
+    "lat": -31.3597,
+    "lon": -64.2094
+  },
+  "Estadio Jose Maria Minella": {
+    "city": "Mar del Plata",
+    "country": "Argentina",
+    "lat": -37.9639,
+    "lon": -57.5747
+  },
+  "Camp Nou": {
+    "city": "Barcelona",
+    "country": "Spain",
+    "lat": 41.3809,
+    "lon": 2.1228
+  },
+  "Santiago Bernabeu": {
+    "city": "Madrid",
+    "country": "Spain",
+    "lat": 41.3764,
+    "lon": -3.7036
+  },
+  "Vicente Calderon": {
+    "city": "Madrid",
+    "country": "Spain",
+    "lat": 40.4019,
+    "lon": -3.7203
+  },
+  "La Romareda": {
+    "city": "Zaragoza",
+    "country": "Spain",
+    "lat": 41.6342,
+    "lon": -0.8956
+  },
+  "Luis Casanova": {
+    "city": "Valencia",
+    "country": "Spain",
+    "lat": 39.4753,
+    "lon": -0.3533
+  },
+  "Benito Villamarin": {
+    "city": "Seville",
+    "country": "Spain",
+    "lat": 37.3561,
+    "lon": -5.9817
+  },
+  "El Molinon": {
+    "city": "Gijon",
+    "country": "Spain",
+    "lat": 43.5364,
+    "lon": -5.6372
+  },
+  "Balaidos": {
+    "city": "Vigo",
+    "country": "Spain",
+    "lat": 42.2117,
+    "lon": -8.7394
+  },
+  "San Mames": {
+    "city": "Bilbao",
+    "country": "Spain",
+    "lat": 43.2642,
+    "lon": -2.9494
+  },
+  "Sarria": {
+    "city": "Barcelona",
+    "country": "Spain",
+    "lat": 41.3978,
+    "lon": 2.1214
+  },
+  "Alicante": {
+    "city": "Alicante",
+    "country": "Spain",
+    "lat": 38.3522,
+    "lon": -0.4906
+  },
+  "Carlos Tartiere": {
+    "city": "Oviedo",
+    "country": "Spain",
+    "lat": 43.3606,
+    "lon": -5.8450
+  },
+  "Stadio Olimpico": {
+    "city": "Rome",
+    "country": "Italy",
+    "lat": 41.9342,
+    "lon": 12.4554
+  },
+  "Stadio San Paolo": {
+    "city": "Naples",
+    "country": "Italy",
+    "lat": 40.8279,
+    "lon": 14.1926
+  },
+  "Stadio Delle Alpi": {
+    "city": "Turin",
+    "country": "Italy",
+    "lat": 45.1094,
+    "lon": 7.6411
+  },
+  "Stadio San Nicola": {
+    "city": "Bari",
+    "country": "Italy",
+    "lat": 41.0839,
+    "lon": 16.8422
+  },
+  "Stadio Comunale": {
+    "city": "Florence",
+    "country": "Italy",
+    "lat": 43.7803,
+    "lon": 11.2325
+  },
+  "Stadio Marc'Antonio Bentegodi": {
+    "city": "Verona",
+    "country": "Italy",
+    "lat": 45.4353,
+    "lon": 10.9686
+  },
+  "Stadio Luigi Ferraris Genoa": {
+    "city": "Genoa",
+    "country": "Italy",
+    "lat": 44.4166,
+    "lon": 8.9525
+  },
+  "Stadio Renato Curi": {
+    "city": "Perugia",
+    "country": "Italy",
+    "lat": 43.1000,
+    "lon": 12.3833
+  },
+  "Stadio La Favorita": {
+    "city": "Palermo",
+    "country": "Italy",
+    "lat": 38.1514,
+    "lon": 13.3372
+  },
+  "Stadio Sant'Elia": {
+    "city": "Cagliari",
+    "country": "Italy",
+    "lat": 39.1983,
+    "lon": 9.1358
+  },
+  "Stadio Friuli": {
+    "city": "Udine",
+    "country": "Italy",
+    "lat": 46.0808,
+    "lon": 13.2436
+  },
+  "Giants Stadium": {
+    "city": "East Rutherford",
+    "country": "United States",
+    "lat": 40.8128,
+    "lon": -74.0742
+  },
+  "Rose Bowl": {
+    "city": "Pasadena",
+    "country": "United States",
+    "lat": 34.1614,
+    "lon": -118.1675
+  },
+  "Foxboro Stadium": {
+    "city": "Foxborough",
+    "country": "United States",
+    "lat": 42.0908,
+    "lon": -71.2644
+  },
+  "Cotton Bowl": {
+    "city": "Dallas",
+    "country": "United States",
+    "lat": 32.7831,
+    "lon": -96.7564
+  },
+  "Citrus Bowl": {
+    "city": "Orlando",
+    "country": "United States",
+    "lat": 28.5392,
+    "lon": -81.4028
+  },
+  "RFK Stadium": {
+    "city": "Washington",
+    "country": "United States",
+    "lat": 38.8903,
+    "lon": -76.9722
+  },
+  "Pontiac Silverdome": {
+    "city": "Pontiac",
+    "country": "United States",
+    "lat": 42.6461,
+    "lon": -83.2553
+  },
+  "Stanford Stadium": {
+    "city": "Stanford",
+    "country": "United States",
+    "lat": 37.4350,
+    "lon": -122.1611
+  },
+  "Soldier Field": {
+    "city": "Chicago",
+    "country": "United States",
+    "lat": 41.8623,
+    "lon": -87.6167
+  },
+  "Stade de France": {
+    "city": "Saint-Denis",
+    "country": "France",
+    "lat": 48.9244,
+    "lon": 2.3600
+  },
+  "Stade Felix Bollaert": {
+    "city": "Lens",
+    "country": "France",
+    "lat": 50.4328,
+    "lon": 2.8153
+  },
+  "Stade Gerland": {
+    "city": "Lyon",
+    "country": "France",
+    "lat": 45.7258,
+    "lon": 4.8322
+  },
+  "Parc des Princes Paris": {
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.8414,
+    "lon": 2.2531
+  },
+  "Stade de la Beaujoire": {
+    "city": "Nantes",
+    "country": "France",
+    "lat": 47.2561,
+    "lon": -1.5250
+  },
+  "Stade de la Mosson": {
+    "city": "Montpellier",
+    "country": "France",
+    "lat": 43.6225,
+    "lon": 3.8119
+  },
+  "Stade du Ray": {
+    "city": "Nice",
+    "country": "France",
+    "lat": 43.7050,
+    "lon": 7.2642
+  },
+  "Stade Geoffroy-Guichard": {
+    "city": "Saint-Etienne",
+    "country": "France",
+    "lat": 45.4608,
+    "lon": 4.3900
+  },
+  "Seoul World Cup Stadium": {
+    "city": "Seoul",
+    "country": "South Korea",
+    "lat": 37.5683,
+    "lon": 126.8975
+  },
+  "Busan Asiad Stadium": {
+    "city": "Busan",
+    "country": "South Korea",
+    "lat": 35.1906,
+    "lon": 129.0608
+  },
+  "Daegu World Cup Stadium": {
+    "city": "Daegu",
+    "country": "South Korea",
+    "lat": 35.8811,
+    "lon": 128.5919
+  },
+  "Incheon Munhak Stadium": {
+    "city": "Incheon",
+    "country": "South Korea",
+    "lat": 37.4664,
+    "lon": 126.6433
+  },
+  "Gwangju World Cup Stadium": {
+    "city": "Gwangju",
+    "country": "South Korea",
+    "lat": 35.1358,
+    "lon": 126.8906
+  },
+  "Daejeon World Cup Stadium": {
+    "city": "Daejeon",
+    "country": "South Korea",
+    "lat": 36.3667,
+    "lon": 127.3667
+  },
+  "Suwon World Cup Stadium": {
+    "city": "Suwon",
+    "country": "South Korea",
+    "lat": 37.2867,
+    "lon": 127.0369
+  },
+  "Ulsan Munsu Football Stadium": {
+    "city": "Ulsan",
+    "country": "South Korea",
+    "lat": 35.5358,
+    "lon": 129.2594
+  },
+  "Seogwipo World Cup Stadium": {
+    "city": "Seogwipo",
+    "country": "South Korea",
+    "lat": 33.2461,
+    "lon": 126.5094
+  },
+  "Jeonju World Cup Stadium": {
+    "city": "Jeonju",
+    "country": "South Korea",
+    "lat": 35.8681,
+    "lon": 127.0647
+  },
+  "International Stadium Yokohama": {
+    "city": "Yokohama",
+    "country": "Japan",
+    "lat": 35.5106,
+    "lon": 139.6050
+  },
+  "Saitama Stadium": {
+    "city": "Saitama",
+    "country": "Japan",
+    "lat": 35.9089,
+    "lon": 139.6819
+  },
+  "Shizuoka Stadium": {
+    "city": "Shizuoka",
+    "country": "Japan",
+    "lat": 34.9361,
+    "lon": 138.3658
+  },
+  "Osaka Nagai Stadium": {
+    "city": "Osaka",
+    "country": "Japan",
+    "lat": 34.6064,
+    "lon": 135.5186
+  },
+  "Miyagi Stadium": {
+    "city": "Miyagi",
+    "country": "Japan",
+    "lat": 38.3469,
+    "lon": 140.9711
+  },
+  "Oita Stadium": {
+    "city": "Oita",
+    "country": "Japan",
+    "lat": 33.2358,
+    "lon": 131.6686
+  },
+  "Niigata Stadium": {
+    "city": "Niigata",
+    "country": "Japan",
+    "lat": 37.8794,
+    "lon": 139.0617
+  },
+  "Ibaraki Kashima Stadium": {
+    "city": "Kashima",
+    "country": "Japan",
+    "lat": 35.9947,
+    "lon": 140.6389
+  },
+  "Kobe Wing Stadium": {
+    "city": "Kobe",
+    "country": "Japan",
+    "lat": 34.6500,
+    "lon": 135.1833
+  },
+  "Sapporo Dome": {
+    "city": "Sapporo",
+    "country": "Japan",
+    "lat": 43.0153,
+    "lon": 141.4097
+  },
+  "Olympiastadion Berlin": {
+    "city": "Berlin",
+    "country": "Germany",
+    "lat": 52.5147,
+    "lon": 13.2394
+  },
+  "Signal Iduna Park": {
+    "city": "Dortmund",
+    "country": "Germany",
+    "lat": 51.4925,
+    "lon": 7.4517
+  },
+  "Allianz Arena": {
+    "city": "Munich",
+    "country": "Germany",
+    "lat": 48.2188,
+    "lon": 11.6247
+  },
+  "AWD Arena": {
+    "city": "Hanover",
+    "country": "Germany",
+    "lat": 52.3600,
+    "lon": 9.7317
+  },
+  "Veltins Arena": {
+    "city": "Gelsenkirchen",
+    "country": "Germany",
+    "lat": 51.5544,
+    "lon": 7.0678
+  },
+  "Gottlieb-Daimler-Stadion": {
+    "city": "Stuttgart",
+    "country": "Germany",
+    "lat": 48.7925,
+    "lon": 9.2322
+  },
+  "Commerzbank-Arena": {
+    "city": "Frankfurt",
+    "country": "Germany",
+    "lat": 50.0686,
+    "lon": 8.6453
+  },
+  "AOL Arena": {
+    "city": "Hamburg",
+    "country": "Germany",
+    "lat": 53.5872,
+    "lon": 9.8989
+  },
+  "Zentralstadion": {
+    "city": "Leipzig",
+    "country": "Germany",
+    "lat": 51.3458,
+    "lon": 12.3481
+  },
+  "Fritz-Walter-Stadion": {
+    "city": "Kaiserslautern",
+    "country": "Germany",
+    "lat": 49.4347,
+    "lon": 7.7772
+  },
+  "Frankenstadion": {
+    "city": "Nuremberg",
+    "country": "Germany",
+    "lat": 49.4264,
+    "lon": 11.1258
+  },
+  "FIFA WM-Stadion Koln": {
+    "city": "Cologne",
+    "country": "Germany",
+    "lat": 50.9336,
+    "lon": 6.8753
+  },
+  "Soccer City": {
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "lat": -26.2347,
+    "lon": 27.9825
+  },
+  "Ellis Park Stadium": {
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "lat": -26.1972,
+    "lon": 28.0597
+  },
+  "Moses Mabhida Stadium": {
+    "city": "Durban",
+    "country": "South Africa",
+    "lat": -29.8292,
+    "lon": 31.0297
+  },
+  "Loftus Versfeld Stadium": {
+    "city": "Pretoria",
+    "country": "South Africa",
+    "lat": -25.7481,
+    "lon": 28.2236
+  },
+  "Nelson Mandela Bay Stadium": {
+    "city": "Port Elizabeth",
+    "country": "South Africa",
+    "lat": -33.9647,
+    "lon": 25.5989
+  },
+  "Free State Stadium": {
+    "city": "Bloemfontein",
+    "country": "South Africa",
+    "lat": -29.1100,
+    "lon": 26.2086
+  },
+  "Royal Bafokeng Stadium": {
+    "city": "Rustenburg",
+    "country": "South Africa",
+    "lat": -25.5783,
+    "lon": 27.1822
+  },
+  "Peter Mokaba Stadium": {
+    "city": "Polokwane",
+    "country": "South Africa",
+    "lat": -23.9167,
+    "lon": 29.4667
+  },
+  "Mbombela Stadium": {
+    "city": "Nelspruit",
+    "country": "South Africa",
+    "lat": -25.4775,
+    "lon": 30.9628
+  },
+  "Green Point Stadium": {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "lat": -33.9033,
+    "lon": 18.4094
+  },
+  "Arena de Sao Paulo": {
+    "city": "Sao Paulo",
+    "country": "Brazil",
+    "lat": -23.5450,
+    "lon": -46.6631
+  },
+  "Estadio do Maracana": {
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "lat": -22.9122,
+    "lon": -43.2302
+  },
+  "Estadio Nacional Mane Garrincha": {
+    "city": "Brasilia",
+    "country": "Brazil",
+    "lat": -15.7833,
+    "lon": -47.8989
+  },
+  "Arena Castelao": {
+    "city": "Fortaleza",
+    "country": "Brazil",
+    "lat": -3.8075,
+    "lon": -38.5217
+  },
+  "Arena Fonte Nova": {
+    "city": "Salvador",
+    "country": "Brazil",
+    "lat": -12.9789,
+    "lon": -38.5042
+  },
+  "Estadio Mineirao": {
+    "city": "Belo Horizonte",
+    "country": "Brazil",
+    "lat": -19.8658,
+    "lon": -43.9708
+  },
+  "Arena da Baixada": {
+    "city": "Curitiba",
+    "country": "Brazil",
+    "lat": -25.4489,
+    "lon": -49.2764
+  },
+  "Arena Pernambuco": {
+    "city": "Recife",
+    "country": "Brazil",
+    "lat": -8.0381,
+    "lon": -34.9175
+  },
+  "Arena Pantanal": {
+    "city": "Cuiaba",
+    "country": "Brazil",
+    "lat": -15.6028,
+    "lon": -56.1236
+  },
+  "Arena Amazonia": {
+    "city": "Manaus",
+    "country": "Brazil",
+    "lat": -3.0817,
+    "lon": -60.0261
+  },
+  "Estadio Beira-Rio": {
+    "city": "Porto Alegre",
+    "country": "Brazil",
+    "lat": -30.0658,
+    "lon": -51.2358
+  },
+  "Arena das Dunas": {
+    "city": "Natal",
+    "country": "Brazil",
+    "lat": -5.8028,
+    "lon": -35.2089
+  },
+  "Luzhniki Stadium": {
+    "city": "Moscow",
+    "country": "Russia",
+    "lat": 55.7153,
+    "lon": 37.5531
+  },
+  "Saint Petersburg Stadium": {
+    "city": "Saint Petersburg",
+    "country": "Russia",
+    "lat": 59.9728,
+    "lon": 30.2217
+  },
+  "Fisht Olympic Stadium": {
+    "city": "Sochi",
+    "country": "Russia",
+    "lat": 43.4025,
+    "lon": 39.9553
+  },
+  "Kazan Arena": {
+    "city": "Kazan",
+    "country": "Russia",
+    "lat": 55.8208,
+    "lon": 49.1544
+  },
+  "Nizhny Novgorod Stadium": {
+    "city": "Nizhny Novgorod",
+    "country": "Russia",
+    "lat": 56.3367,
+    "lon": 43.9539
+  },
+  "Samara Arena": {
+    "city": "Samara",
+    "country": "Russia",
+    "lat": 53.2781,
+    "lon": 50.2394
+  },
+  "Mordovia Arena": {
+    "city": "Saransk",
+    "country": "Russia",
+    "lat": 54.1833,
+    "lon": 45.1833
+  },
+  "Rostov Arena": {
+    "city": "Rostov-on-Don",
+    "country": "Russia",
+    "lat": 47.2089,
+    "lon": 39.7367
+  },
+  "Volgograd Arena": {
+    "city": "Volgograd",
+    "country": "Russia",
+    "lat": 48.7339,
+    "lon": 44.5489
+  },
+  "Spartak Stadium": {
+    "city": "Moscow",
+    "country": "Russia",
+    "lat": 55.8181,
+    "lon": 37.4406
+  },
+  "Ekaterinburg Arena": {
+    "city": "Yekaterinburg",
+    "country": "Russia",
+    "lat": 56.8328,
+    "lon": 60.5711
+  },
+  "Kaliningrad Stadium": {
+    "city": "Kaliningrad",
+    "country": "Russia",
+    "lat": 54.7044,
+    "lon": 20.5094
+  },
+  "Lusail Iconic Stadium": {
+    "city": "Lusail",
+    "country": "Qatar",
+    "lat": 25.4217,
+    "lon": 51.4897
+  },
+  "Al Bayt Stadium": {
+    "city": "Al Khor",
+    "country": "Qatar",
+    "lat": 25.6492,
+    "lon": 51.4869
+  },
+  "Ahmad Bin Ali Stadium": {
+    "city": "Al Rayyan",
+    "country": "Qatar",
+    "lat": 25.3806,
+    "lon": 51.3761
+  },
+  "Khalifa International Stadium": {
+    "city": "Doha",
+    "country": "Qatar",
+    "lat": 25.2619,
+    "lon": 51.4431
+  },
+  "Education City Stadium": {
+    "city": "Doha",
+    "country": "Qatar",
+    "lat": 25.3131,
+    "lon": 51.4206
+  },
+  "Stadium 974": {
+    "city": "Doha",
+    "country": "Qatar",
+    "lat": 25.2708,
+    "lon": 51.5500
+  },
+  "Al Thumama Stadium": {
+    "city": "Doha",
+    "country": "Qatar",
+    "lat": 25.2289,
+    "lon": 51.5311
+  },
+  "Al Janoub Stadium": {
+    "city": "Al Wakrah",
+    "country": "Qatar",
+    "lat": 25.1667,
+    "lon": 51.6000
+  }
+}

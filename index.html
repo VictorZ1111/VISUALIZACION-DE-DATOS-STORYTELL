@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trayectoria de los Mundiales</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- MAPA -->
+  <div id="mapContainer">
+    <div id="map"></div>
+    <div class="mapVignette"></div>
+    <!-- Logo del mundial en medio del país (hechos históricos) -->
+    <img id="factsLogo" class="factsLogo hidden" alt="Logo Mundial" />
+  </div>
+
+  <!-- HUD -->
+  <div id="hud">
+
+    <!-- Panel 1: TÍTULO del mundial (solo título + bandera al final del título) -->
+    <div id="worldcupPanel" class="panel hidden">
+      <h2 id="wcTitle">MUNDIAL</h2>
+    </div>
+
+    <!-- Panel 2: HISTORIA MUNDIALISTA (aparece solo en split y se actualiza en match/facts) -->
+    <div id="historyPanel" class="panel panelSub hidden">
+      <h3 id="histTitle">HISTORIA MUNDIALISTA</h3>
+      <p id="histText" class="muted"></p>
+      <img id="histMascot" class="histMascot hidden" alt="Mascota" />
+      <img id="factsImage" class="factsImage hidden" alt="Imagen" />
+    </div>
+
+    <!-- Panel 3: PARTIDOS (se mueve por pantalla según ubicación del partido) -->
+    <div id="matchPanel" class="matchPanel hidden">
+      <div class="matchHead">
+        <span id="matchStage" class="badge">PARTIDO</span>
+        <span id="matchMeta" class="muted small"></span>
+      </div>
+
+      <div class="teams">
+        <div class="team">
+          <img id="homeFlag" class="flag" alt="home" />
+          <span id="homeName"></span>
+        </div>
+        <div class="score" id="scoreText">0 - 0</div>
+        <div class="team rightTeam">
+          <span id="awayName"></span>
+          <img id="awayFlag" class="flag" alt="away" />
+        </div>
+      </div>
+
+      <div class="matchFooter">
+        <div class="muted small" id="matchStadium"></div>
+        <div class="muted small" id="matchResult"></div>
+      </div>
+    </div>
+
+    <!-- Panel 4: CAMPEÓN (centrado en el país, mascota se reemplaza por copa) -->
+    <div id="championPanel" class="championPanel hidden">
+      <div class="championInner">
+        <div class="championTitle">¡CAMPEONES!</div>
+        <img id="champFlag" class="champFlag" alt="champion" />
+        <div id="champName" class="champName">---</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- STORY -->
+  <main id="story">
+
+    <!-- INTRO -->
+    <section class="step intro" data-type="intro">
+      <div class="introBox">
+        <img src="assets/icons/copa1.png" class="introTrophyLeft" alt="Copa" />
+        <img src="assets/icons/copa1.png" class="introTrophyRight" alt="Copa" />
+        <h1>TRAYECTORIA DE LOS MUNDIALES</h1>
+        <p>¡ REVIVE LA APASIONANTE HISTORIA DE LOS MUNDIALES DE FÚTBOL A LO LARGO DE LA HISTORIA !</p>
+        <button id="startBtn" class="cta">¡ PITAZO INICIAL !</button>
+      </div>
+    </section>
+
+    <!-- 👇 Las demás secciones (world/worldcup/split/match/champion/facts)
+         se GENERAN automáticamente desde data/worldcups.json -->
+  </main>
+
+  <!-- Tooltip global para gráficos -->
+  <div id="chartTooltip" class="chartTooltip hidden"></div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

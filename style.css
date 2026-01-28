@@ -1,0 +1,571 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #070a10;
+  color: #fff;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+#mapContainer {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+#map { width: 100%; height: 100%; }
+
+.mapVignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center, rgba(0,0,0,0) 35%, rgba(0,0,0,0.70) 100%);
+}
+
+/* Logo del mundial en medio del país (hechos históricos) */
+.factsLogo {
+  position: absolute;
+  width: 180px;
+  height: auto;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.7));
+  pointer-events: none;
+  z-index: 10;
+  transition: none !important; /* SIN transición para ocultar instantáneamente */
+  border-radius: 12px;
+  display: none !important; /* Ocultar por defecto */
+}
+
+.factsLogo:not(.hidden) {
+  opacity: 0.9;
+  display: block !important; /* Mostrar cuando no está hidden */
+  transition: opacity 0.3s ease; /* Solo transición al mostrar */
+}
+
+/* HUD */
+#hud {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 999; /* ✅ FIX: HUD siempre arriba */
+}
+
+/* PANEL BASE */
+.panel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: min(680px, 92vw);
+  padding: 18px 20px;
+  border-radius: 16px;
+  background: rgba(10, 14, 22, 0.60);
+  border: 1px solid rgba(255,255,255,0.10);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+  transition: all 0.8s ease;
+}
+
+.panel.hidden {
+  opacity: 0;
+  transform: translate(-50%,-55%);
+  pointer-events: none;
+}
+
+.panel.right {
+  left: auto;
+  right: 41px;
+  top: 140px;
+  transform: none;
+  width: min(520px, 46vw);
+}
+
+.panel h2 {
+  margin: 0;
+  letter-spacing: 0.6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;   /* ✅ centra */
+  text-align: center;        /* ✅ por si se parte en 2 líneas */
+  gap: 10px;
+  width: 100%;
+}
+
+
+/* ✅ FIX: que el título del mundial SIEMPRE se vea */
+#worldcupPanel {
+  z-index: 50;
+}
+
+#worldcupPanel h2 {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1.1;
+  opacity: 1;
+  color: #fff;
+}
+
+/* Panel 2 debajo del panel derecho */
+.panelSub {
+  top: 260px;
+  width: min(520px, 46vw);
+}
+
+.panelSub.right {
+  left: auto;
+  right: 40px;
+  transform: none;
+}
+
+/* ✅ FIX: separa más la card de historia para que no tape el título */
+#historyPanel.panelSub.right {
+  top: 270px;
+  z-index: 40;
+  padding-bottom: 200px; /* Espacio para la mascota */
+}
+
+/* Mascota en panel de historia (esquina inferior derecha, sin tapar texto) */
+.histMascot {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  width: 140px;
+  height: auto;
+  opacity: 0.8;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));
+  pointer-events: none;
+  z-index: 1; /* Debajo del texto */
+}
+
+/* Imagen de hechos históricos (centrada en el mapa, no en el panel) */
+.factsImage {
+  display: none !important;
+}
+
+/* Icono de copa en títulos de historia - inline con el texto */
+#historyPanel h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#historyPanel h3::after {
+  content: '';
+  width: 22px;
+  height: 22px;
+  background: url('assets/icons/copa2.png') center/contain no-repeat;
+  opacity: 0.8;
+  flex-shrink: 0;
+}
+
+/* Texto */
+.muted { margin: 0; opacity: 0.85; line-height: 1.35; }
+.small { font-size: 12px; opacity: 0.85; }
+
+/* STORY */
+#story { 
+  position: relative; 
+  z-index: 5;
+  overflow: visible;
+}
+.step { height: 95vh; display: flex; align-items: center; justify-content: center; }
+
+/* INTRO */
+.introBox {
+  pointer-events: auto;
+  position: relative;
+  width: min(880px, 92vw);
+  padding: 32px 28px;
+  border-radius: 18px;
+  background: rgba(10, 14, 22, 0.60);
+  border: 1px solid rgba(255, 102, 0, 0.538);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.55);
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+
+/* Copas decorativas a los costados */
+.introTrophyLeft,
+.introTrophyRight {
+  position: absolute;
+  top: -40px;
+  width: 100px;
+  height: auto;
+  opacity: 0.7;
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.5));
+}
+
+.introTrophyLeft {
+  left: -30px;
+  transform: rotate(-15deg);
+}
+
+.introTrophyRight {
+  right: -30px;
+  transform: rotate(15deg);
+}
+
+.introBox h1 {
+  margin: 0 0 10px 0;
+  font-size: clamp(28px, 4vw, 48px);
+  letter-spacing: 1px;
+}
+.introBox p { margin: 0 0 16px 0; opacity: 0.85; }
+
+.cta {
+  pointer-events: auto;
+  cursor: pointer;
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255, 102, 0, 0.538);
+  color: white;
+  font-size: 14px;
+}
+
+/* MAPA */
+.country { transition: opacity 0.4s ease; }
+.country.dim { opacity: 0.08; }
+.country.active { opacity: 1; }
+
+/* FLAGS inline (título) */
+.inlineFlag {
+  width: 32px;          /* ✅ un pelín más visible */
+  height: 20px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid rgba(255,255,255,0.22);
+  flex: 0 0 auto;
+}
+
+/* MATCH PANEL (FIJO, no se mueve) */
+.matchPanel {
+  position: fixed;
+
+  /* ✅ posición fija arriba-izquierda, separada del borde */
+  left: 50px;
+  top: 30px;
+
+  transform: none;
+
+  width: min(420px, 40vw);
+  padding: 14px 14px;
+  border-radius: 16px;
+  background: rgba(10, 14, 22, 0.72);
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.55);
+  backdrop-filter: blur(12px);
+  pointer-events: none;
+
+  /* ✅ ya no animamos left/top porque ya es fija */
+  transition: opacity 0.25s ease;
+
+  z-index: 45;
+}
+
+.matchPanel.hidden { opacity: 0; pointer-events: none; }
+
+.matchHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(255, 102, 0, 0.20);
+  border: 1px solid rgba(255, 102, 0, 0.35);
+}
+
+.teams {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.rightTeam { justify-content: flex-end; }
+
+.flag {
+  width: 30px;
+  height: 20px;
+  border-radius: 4px;
+  object-fit: cover;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.score {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.matchFooter { display: grid; gap: 2px; }
+
+#matchResult { display: none; }
+
+/* CHAMPION */
+.championPanel {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+  z-index: 60;
+}
+
+.championPanel.hidden { opacity: 0; pointer-events: none; }
+
+/* ✅ OJO: tu script posiciona .championInner con left/top
+   así que aquí NO usamos transform fijo, solo estilo visual */
+.championInner {
+  width: min(420px, 100vw);
+  padding: 18px;
+  border-radius: 18px;
+  background: rgba(10, 14, 22, 0.75);
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+  backdrop-filter: blur(12px);
+  text-align: center;
+}
+
+.championTitle { 
+  font-size: 26px; 
+  font-weight: 900; 
+  margin-bottom: 10px; 
+}
+
+/* ✅ FIX: bandera de campeones más pequeña */
+.champFlag {
+  width: 56px;     /* antes 76 */
+  height: 36px;    /* antes 48 */
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.22);
+  object-fit: cover;
+}
+
+.champName { 
+  margin-top: 10px; 
+  font-size: 20px; 
+  font-weight: 800; 
+  letter-spacing: 0.5px; 
+}
+
+/* =========================
+   FIX: Match card no tapa Historia (lado derecho)
+   ========================= */
+
+/* Reserva el lado derecho para panels */
+:root{
+  --right-panel-width: min(520px, 46vw);
+  --right-gap: 40px;
+}
+
+/* Empuja la card de partidos hacia la izquierda
+   y evita que se meta al panel derecho */
+.matchPanel{
+  max-width: min(420px, 44vw);
+  z-index: 45;
+}
+
+/* Si tu pantalla es grande, limita aún más para que no choque */
+@media (min-width: 900px){
+  .matchPanel{
+    /* Nunca pasar este límite horizontal: anchoPantalla - (anchoPanelDerecho + margen) */
+    max-width: 420px;
+  }
+}
+
+/* =========================
+   INSIGHTS (GRÁFICOS FINALES)
+   ========================= */
+
+.step.insights{
+  height: auto;
+  min-height: 100vh;
+  padding: 80px 0;
+  align-items: flex-start;
+}
+
+.insightsWrap{
+  pointer-events: auto;
+  width: min(1100px, 92vw);
+  margin: 0 auto;
+  padding: 22px;
+  border-radius: 18px;
+  background: rgba(10, 14, 22, 0.55);
+  border: 1px solid rgba(255,255,255,0.10);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.55);
+  backdrop-filter: blur(10px);
+}
+
+.insightsHeader{
+  display: grid;
+  gap: 6px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.insightsHeader h2{
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 0.6px;
+}
+
+.insightsHeader p{
+  margin: 0;
+  opacity: 0.85;
+}
+
+.insightsGrid{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 14px;
+}
+
+.insightCard{
+  grid-column: span 12;
+  padding: 14px;
+  border-radius: 16px;
+  background: rgba(10, 14, 22, 0.65);
+  border: 1px solid rgba(255,255,255,0.10);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.40);
+  backdrop-filter: blur(10px);
+  overflow: visible; /* Permitir que el contenido se extienda */
+}
+
+@media (min-width: 900px){
+  .insightCard{
+    grid-column: span 6;
+  }
+  .insightCard.wide{
+    grid-column: span 12;
+  }
+}
+
+.insightTitle{
+  margin: 0 0 6px 0;
+  font-weight: 850;
+  letter-spacing: 0.4px;
+}
+
+.insightDesc{
+  margin: 0 0 10px 0;
+  opacity: 0.82;
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.chartBox{
+  width: 100%;
+  overflow: hidden;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Tooltips */
+.chartTooltip{
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(10, 14, 22, 0.90);
+  border: 1px solid rgba(255,255,255,0.14);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.55);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  font-size: 12px;
+  max-width: 260px;
+  line-height: 1.25;
+}
+
+.chartTooltip.hidden{ display:none; }
+
+/* SVG base */
+.chartBox svg{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* Conclusión de insights */
+.insightsConclusion {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.conclusionTrophy {
+  width: 80px;
+  height: auto;
+  margin: 0 auto 20px;
+  display: block;
+  filter: drop-shadow(0 4px 12px rgba(255, 215, 0, 0.3));
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.insightsConclusion h3 {
+  font-size: 2rem;
+  margin: 0 0 20px 0;
+  font-weight: 900;
+  background: linear-gradient(135deg, #4a90e2, #63b3ed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.insightsConclusion h4 {
+  font-size: 1.3rem;
+  margin: 30px 0 10px 0;
+  color: #63b3ed;
+}
+
+.insightsConclusion p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin: 15px auto;
+  max-width: 800px;
+  opacity: 0.95;
+}
+
+.insightsConclusion ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 700px;
+  text-align: left;
+}
+
+.insightsConclusion ul li {
+  font-size: 1.05rem;
+  padding: 10px 0;
+}
+
+.conclusionDivider {
+  width: 80%;
+  height: 2px;
+  margin: 40px auto;
+  background: linear-gradient(90deg, transparent, rgba(74, 144, 226, 0.5), transparent);
+}
+
+.insightsConclusion button {
+  margin-top: 25px;
+}

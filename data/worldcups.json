@@ -1,0 +1,479 @@
+{
+  "cups": [
+    {
+      "year": 1930,
+      "host": "Uruguay",
+      "hostFlag": "uy",
+      "audio": "audio/1930.mp3",
+      "mascot": "assets/mascots/1930.png",
+      "trophyIcon": "assets/icons/1930.png",
+      "champion": { "name": "Uruguay", "flag": "uy" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "La Copa Mundial de la FIFA 1930 fue la primera edición del Mundial y se jugó en Uruguay con 13 selecciones invitadas. Todos los partidos se disputaron en Montevideo (Centenario, Gran Parque Central y Pocitos), y el Estadio Centenario fue el gran símbolo del torneo." },
+        { "key": "groups", "title": "Fase de grupos", "text": "La fase de grupos tuvo cuatro grupos y solo el líder de cada uno avanzó. Hubo partidos muy abiertos como Argentina vs Mexico 6–3. Uruguay y Argentina dominaron sus grupos y llegaron con fuerza a las rondas finales." },
+        { "key": "semis", "title": "Semifinales", "text": "Las semifinales fueron Argentina vs United States 6–1; Uruguay vs Yugoslavia 6–1. Ambos ganadores pasaron con fuerza a la final." },
+        { "key": "final", "title": "Final", "text": "La final fue Uruguay vs Argentina 4–2. Uruguay remontó en la segunda parte para ganar su primer título mundial en casa." },
+        { "key": "champion", "title": "Campeón", "text": "Uruguay se consagró campeón mundial por primera vez jugando en su propio país." },
+        { "key": "facts", "title": "Hechos históricos", "text": "Este fue el primer torneo mundialista. La final se jugó en el Estadio Centenario con una asistencia récord, y Uruguay celebró su título como anfitrión." }
+      ],
+      "phaseOrder": ["group stage", "semi-finals", "final"],
+      "venues": {
+        "Estadio Centenario": { "lat": -34.8941, "lon": -56.1522 },
+        "Estadio Gran Parque Central": { "lat": -34.8938, "lon": -56.1561 },
+        "Estadio Pocitos": { "lat": -34.9167, "lon": -56.1428 },
+        "Default Venue": { "lat": -34.8941, "lon": -56.1522 }
+      }
+    },
+    {
+      "year": 1934,
+      "host": "Italy",
+      "hostFlag": "it",
+      "audio": "audio/1934.mp3",
+      "mascot": "assets/mascots/1934.png",
+      "trophyIcon": "assets/icons/1934.png",
+      "champion": { "name": "Italy", "flag": "it" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "El Mundial de 1934 se jugó en Italia con 16 selecciones y un formato de eliminación directa desde octavos (sin fase de grupos). Los empates se resolvían con prórroga y, si era necesario, partido de repetición." },
+        { "key": "groups", "title": "Fase de grupos", "text": "Desde el arranque hubo marcadores fuertes y dramatismo: Austria v France 7–1. En cuartos también se vivieron duelos cerrados y hasta replays, como Spain v Italy 1–1 (prórroga) y Italy v Spain 1–0." },
+        { "key": "semis", "title": "Semifinales", "text": "Las semifinales definieron a los finalistas con estos resultados: Germany v Czechoslovakia 1–3; Italy v Austria 1–0." },
+        { "key": "final", "title": "Final", "text": "La final se decidió en prórroga: Italy v Czechoslovakia 2–1 (prórroga)." },
+        { "key": "champion", "title": "Campeón", "text": "Italia se quedó con el título en casa tras un camino completamente de eliminación directa." },
+        { "key": "facts", "title": "Hechos históricos", "text": "Fue la primera Copa con un cuadro completo de eliminatorias en cancha (octavos a final). También tuvo varios partidos repetidos por empates, algo que hoy ya no se usa." }
+      ],
+      "phaseOrder": ["round of 16", "quarter-finals", "semi-finals", "third-place match", "final"],
+      "venues": {
+        "Stadio Benito Mussolini": { "lat": 41.9342, "lon": 12.4538 },
+        "Stadio Littoriale": { "lat": 43.7696, "lon": 11.2558 },
+        "Stadio Luigi Ferraris": { "lat": 44.4167, "lon": 8.9519 },
+        "Stadio Nazionale del PNF": { "lat": 41.9342, "lon": 12.4538 },
+        "Stadio San Siro": { "lat": 45.4780, "lon": 9.1240 },
+        "Stadio Giovanni Berta": { "lat": 43.7804, "lon": 11.2822 },
+        "Default Venue": { "lat": 41.9028, "lon": 12.4964 }
+      }
+    },
+    {
+      "year": 1938,
+      "host": "France",
+      "hostFlag": "fr",
+      "audio": "audio/1938.mp3",
+      "mascot": "assets/mascots/1938.png",
+      "trophyIcon": "assets/icons/1938.png",
+      "champion": { "name": "Italy", "flag": "it" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "El Mundial de 1938 se disputó en Francia con 15 selecciones y, nuevamente, eliminación directa desde octavos. Varios cruces necesitaron prórroga y algunos incluso repetición." },
+        { "key": "groups", "title": "Fase de grupos", "text": "El torneo dejó partidos legendarios por cantidad de goles y emoción, como Brazil v Poland 6–5 (prórroga). En cuartos hubo goleadas y series tensas: Sweden v Cuba 8–0 y Switzerland v Hungary 2–4." },
+        { "key": "semis", "title": "Semifinales", "text": "En semifinales: Hungary v Sweden 5–1; Italy v Brazil 2–1." },
+        { "key": "final", "title": "Final", "text": "La final fue Italy v Hungary 4–2." },
+        { "key": "champion", "title": "Campeón", "text": "Italia repitió como campeón, confirmando su dominio en la era inicial de los Mundiales." },
+        { "key": "facts", "title": "Hechos históricos", "text": "Destacó por sus marcadores altos y por el uso de prórrogas/repeticiones para resolver empates. También consolidó el formato de eliminación directa en Europa." }
+      ],
+      "phaseOrder": ["round of 16", "quarter-finals", "semi-finals", "third-place match", "final"],
+      "venues": {
+        "Stade Olympique de Colombes": { "lat": 48.9264, "lon": 2.2539 },
+        "Stade Vélodrome": { "lat": 43.2698, "lon": 5.3958 },
+        "Stade de la Meinau": { "lat": 48.5600, "lon": 7.7553 },
+        "Stade du Fort Carré": { "lat": 43.5847, "lon": 7.1239 },
+        "Parc Lescure": { "lat": 44.8975, "lon": -0.5610 },
+        "Stade Municipal": { "lat": 48.1113, "lon": -1.7130 },
+        "Stade des Ponts Jumeaux": { "lat": 43.6108, "lon": 1.4320 },
+        "Stade de Gerland": { "lat": 45.7261, "lon": 4.8317 },
+        "Default Venue": { "lat": 48.8566, "lon": 2.3522 }
+      }
+    },
+    {
+      "year": 1950,
+      "host": "Brazil",
+      "hostFlag": "br",
+      "audio": "audio/1950.mp3",
+      "mascot": "assets/mascots/1950.png",
+      "trophyIcon": "assets/icons/1950.png",
+      "champion": { "name": "Uruguay", "flag": "uy" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "La Copa Mundial de la FIFA 1930 fue la primera edición del Mundial y se jugó en Uruguay con 13 selecciones invitadas. Todos los partidos se disputaron en Montevideo (Centenario, Gran Parque Central y Pocitos), y el Estadio Centenario fue el gran símbolo del torneo." },
+        { "key": "groups", "title": "Fase de grupos", "text": "La fase de grupos tuvo cuatro grupos y solo el líder de cada uno avanzó. Hubo partidos muy abiertos como Argentina v Mexico 6–3. Uruguay y Argentina dominaron sus grupos y llegaron con fuerza a las rondas finales." },
+        { "key": "semis", "title": "Semifinales", "text": "En semifinales se marcaron muchos goles: Argentina v United States 6–1; Uruguay v Yugoslavia 6–1." },
+        { "key": "final", "title": "Final", "text": "La final en el Estadio Centenario fue Uruguay v Argentina 4–2, coronando al anfitrión." },
+        { "key": "champion", "title": "Campeón", "text": "Uruguay ganó el primer Mundial, apoyado por su fortaleza como local y una final de alto nivel ante Argentina." },
+        { "key": "facts", "title": "Hechos históricos", "text": "Fue el primer Mundial de la historia y también el primero organizado por la FIFA. Dejó como legado el Estadio Centenario y el inicio de una competencia que se volvió global." }
+      ],
+      "phaseOrder": ["group stage", "final round"],
+      "venues": {
+        "Estádio do Maracanã": { "lat": -22.9121, "lon": -43.2302 },
+        "Estádio Independência": { "lat": -19.8658, "lon": -43.9708 },
+        "Estádio Eucaliptos": { "lat": -29.7174, "lon": -53.7157 },
+        "Estádio Pacaembu": { "lat": -23.5455, "lon": -46.6634 },
+        "Estádio Ilha do Retiro": { "lat": -8.0594, "lon": -34.8977 },
+        "Estádio Durival Britto": { "lat": -25.4490, "lon": -49.2769 },
+        "Default Venue": { "lat": -22.9121, "lon": -43.2302 }
+      }
+    },
+    {
+      "year": 1954,
+      "host": "Switzerland",
+      "hostFlag": "ch",
+      "audio": "audio/1954.mp3",
+      "mascot": "assets/mascots/1954.png",
+      "trophyIcon": "assets/icons/1954.png",
+      "champion": { "name": "Germany", "flag": "de" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "Suiza 1954 reunió a 16 selecciones y se recordó por su cantidad de goles. Tras la fase de grupos llegaron los cruces directos desde cuartos." },
+        { "key": "groups", "title": "Fase de grupos", "text": "En grupos hubo partidos muy abiertos, como Hungary v West Germany 8–3, y varios equipos llegaron con ataque muy fuerte a la fase final." },
+        { "key": "semis", "title": "Semifinales", "text": "Las semifinales fueron intensas: Hungary v Uruguay 4–2 (prórroga); West Germany v Austria 6–1." },
+        { "key": "final", "title": "Final", "text": "La final pasó a la historia como el 'Milagro de Berna': West Germany v Hungary 3–2." },
+        { "key": "champion", "title": "Campeón", "text": "Alemania Occidental levantó el título tras remontar la narrativa del torneo y ganar una final muy cerrada ante Hungría." },
+        { "key": "facts", "title": "Hechos históricos", "text": "Fue una de las ediciones más goleadoras. También dejó uno de los relatos clásicos del fútbol: el 'Milagro de Berna'." }
+      ],
+      "phaseOrder": ["group stage", "quarter-finals", "semi-finals", "third-place match", "final"],
+      "venues": {
+        "St. Jakob Stadium": { "lat": 47.5417, "lon": 7.6206 },
+        "Stade de la Pontaise": { "lat": 46.5331, "lon": 6.6145 },
+        "Charmilles Stadium": { "lat": 46.2097, "lon": 6.1264 },
+        "Hardturm Stadium": { "lat": 47.3905, "lon": 8.5101 },
+        "Wankdorf Stadium": { "lat": 46.9633, "lon": 7.4651 },
+        "Cornaredo Stadium": { "lat": 46.0357, "lon": 8.9606 },
+        "Stade Olympique de la Pontaise": { "lat": 46.5331, "lon": 6.6145 },
+        "Default Venue": { "lat": 46.9633, "lon": 7.4651 }
+      }
+    },
+
+    {
+      "year": 1958,
+      "host": "Sweden",
+      "hostFlag": "se",
+      "audio": "audio/1958.mp3",
+      "mascot": "assets/mascots/1958.png",
+      "trophyIcon": "assets/icons/1958.png",
+      "champion": { "name": "Brazil", "flag": "br" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "Suecia 1958 se jugó con 16 selecciones y consolidó a Brasil como potencia mundial." },
+        { "key": "groups", "title": "Fase de grupos", "text": "En la fase de grupos se vieron goleadas y equipos muy ofensivos, por ejemplo France v Paraguay 7–3." },
+        { "key": "semis", "title": "Semifinales", "text": "En semifinales: Sweden v West Germany 3–1; Brazil v France 5–2." },
+        { "key": "final", "title": "Final", "text": "La final fue Brazil v Sweden 5–2." },
+        { "key": "champion", "title": "Campeón", "text": "Brasil ganó su primer Mundial y empezó a construir su leyenda en la historia del torneo." },
+        { "key": "facts", "title": "Hechos históricos", "text": "La edición es recordada por el impacto de Brasil en el escenario mundial y por varios marcadores amplios." }
+      ],
+      "phaseOrder": ["group stage", "quarter-finals", "semi-finals", "third-place match", "final"],
+      "venues": { "Default Venue": { "lat": 59.3293, "lon": 18.0686 } }
+    },
+    {
+      "year": 1962,
+      "host": "Chile",
+      "hostFlag": "cl",
+      "audio": "audio/1962.mp3",
+      "mascot": "assets/mascots/1962.png",
+      "trophyIcon": "assets/icons/1962.png",
+      "champion": { "name": "Brazil", "flag": "br" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "Chile 1962 contó con 16 selecciones y fue un torneo muy competitivo, con partidos intensos desde la fase de grupos." },
+        { "key": "groups", "title": "Fase de grupos", "text": "La fase de grupos dejó partidos memorables como Soviet Union v Colombia 4–4, y también duelos muy físicos como Chile v Italy 2–0." },
+        { "key": "semis", "title": "Semifinales", "text": "En semifinales: Chile v Brazil 2–4; Yugoslavia v Czechoslovakia 1–3." },
+        { "key": "final", "title": "Final", "text": "La final fue Brazil v Czechoslovakia 3–1." },
+        { "key": "champion", "title": "Campeón", "text": "Brasil repitió el título y se consolidó como el gran equipo de la época." },
+        { "key": "facts", "title": "Hechos históricos", "text": "El torneo quedó marcado por su carácter duro y por la capacidad de Brasil de adaptarse y volver a ganar." }
+      ],
+      "phaseOrder": ["group stage", "quarter-finals", "semi-finals", "third-place match", "final"],
+      "venues": { "Default Venue": { "lat": -33.4489, "lon": -70.6693 } }
+    },
+
+    {
+      "year": 1966,
+      "host": "England",
+      "hostFlag": "gb",
+      "audio": "audio/1966.mp3",
+      "mascot": "assets/mascots/1966.png",
+      "trophyIcon": "assets/icons/1966.png",
+      "champion": { "name": "England", "flag": "gb" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "Inglaterra 1966 reunió a 16 selecciones y se definió por duelos cerrados y un cierre histórico en Wembley." },
+        { "key": "groups", "title": "Fase de grupos", "text": "En la fase previa hubo sorpresas como North Korea v Italy 1–0, y en cuartos destacó Portugal v North Korea 5–3 por su remontada." },
+        { "key": "semis", "title": "Semifinales", "text": "En semifinales: West Germany v Soviet Union 2–1; England v Portugal 2–1." },
+        { "key": "final", "title": "Final", "text": "La final fue England v West Germany 4–2 (prórroga) en prórroga." },
+        { "key": "champion", "title": "Campeón", "text": "Inglaterra ganó su único Mundial, con la final más recordada de su historia." },
+        { "key": "facts", "title": "Hechos históricos", "text": "La final incluyó un hat-trick y un desenlace en tiempo extra que sigue siendo tema de debate y recuerdo." }
+      ],
+      "phaseOrder": ["group stage", "quarter-finals", "semi-finals", "third-place match", "final"],
+      "venues": { "Default Venue": { "lat": 51.5074, "lon": -0.1278 } }
+    },
+
+    {
+      "year": 1970,
+      "host": "Mexico",
+      "hostFlag": "mx",
+      "audio": "audio/1970.mp3",
+      "mascot": "assets/mascots/1970.png",
+      "trophyIcon": "assets/icons/1970.png",
+      "champion": { "name": "Brazil", "flag": "br" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "México 1970 se jugó con 16 selecciones y es uno de los Mundiales más celebrados por su nivel ofensivo." },
+        { "key": "groups", "title": "Fase de grupos", "text": "En grupos hubo espectáculo, por ejemplo West Germany v Bulgaria 5–2, y varios favoritos empezaron fuertes." },
+        { "key": "semis", "title": "Semifinales", "text": "Las semifinales fueron históricas: Uruguay v Brazil 1–3; Italy v West Germany 4–3 (prórroga)." },
+        { "key": "final", "title": "Final", "text": "La final fue Brazil v Italy 4–1." },
+        { "key": "champion", "title": "Campeón", "text": "Brasil conquistó su tercer título y cerró el torneo con una final brillante ante Italia." },
+        { "key": "facts", "title": "Hechos históricos", "text": "Es recordado por partidos icónicos como Italy v West Germany 4–3 (prórroga) y por consolidar a Brasil como tricampeón." }
+      ],
+      "phaseOrder": ["group stage", "quarter-finals", "semi-finals", "third-place match", "final"],
+      "venues": { "Default Venue": { "lat": 19.4326, "lon": -99.1332 } }
+    },
+
+    {
+      "year": 1974,
+      "host": "Germany",
+      "hostFlag": "de",
+      "audio": "audio/1974.mp3",
+      "mascot": "assets/mascots/1974.png",
+      "trophyIcon": "assets/icons/1974.png",
+      "champion": { "name": "Germany", "flag": "de" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "Alemania 1974 tuvo 16 selecciones y un formato con fase de grupos y una segunda fase de grupos antes de la final." },
+        { "key": "groups", "title": "Fase de grupos", "text": "En la primera fase hubo goleadas como Yugoslavia v Zaire 9–0 y un resultado histórico: East Germany v West Germany 1–0." },
+        { "key": "semis", "title": "Semifinales", "text": "No hubo semifinales: los finalistas salieron de la segunda fase de grupos." },
+        { "key": "final", "title": "Final", "text": "La final fue West Germany v Netherlands 2–1." },
+        { "key": "champion", "title": "Campeón", "text": "Alemania Federal fue campeona en casa tras imponerse en la final a Países Bajos." },
+        { "key": "facts", "title": "Hechos históricos", "text": "El torneo es recordado por el 'fútbol total' de Países Bajos y por un formato poco común con dos fases de grupos." }
+      ],
+      "phaseOrder": ["group stage", "second group stage", "third-place match", "final"],
+      "venues": { "Default Venue": { "lat": 52.52, "lon": 13.405 } }
+    },
+
+    {
+      "year": 1978,
+      "host": "Argentina",
+      "hostFlag": "ar",
+      "audio": "audio/1978.mp3",
+      "mascot": "assets/mascots/1978.png",
+      "trophyIcon": "assets/icons/1978.png",
+      "champion": { "name": "Argentina", "flag": "ar" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "Argentina 1978 se jugó con 16 selecciones y mantuvo el formato de dos fases de grupos antes de la final." },
+        { "key": "groups", "title": "Fase de grupos", "text": "La primera fase dejó partidos fuertes como Netherlands v Iran 3–0 y Scotland v Iran 1–1." },
+        { "key": "semis", "title": "Semifinales", "text": "No hubo semifinales: los finalistas se definieron en la segunda fase de grupos." },
+        { "key": "final", "title": "Final", "text": "La final se decidió en prórroga: Argentina v Netherlands 3–1 (prórroga)." },
+        { "key": "champion", "title": "Campeón", "text": "Argentina ganó su primer Mundial, con una final inolvidable ante Países Bajos." },
+        { "key": "facts", "title": "Hechos históricos", "text": "Quedó marcada por la segunda fase de grupos y por partidos muy recordados como Argentina v Peru 6–0." }
+      ],
+      "phaseOrder": ["group stage", "second group stage", "third-place match", "final"],
+      "venues": { "Default Venue": { "lat": -34.6037, "lon": -58.3816 } }
+    },
+
+    {
+      "year": 1982,
+      "host": "Spain",
+      "hostFlag": "es",
+      "audio": "audio/1982.mp3",
+      "mascot": "assets/mascots/1982.png",
+      "trophyIcon": "assets/icons/1982.png",
+      "champion": { "name": "Italy", "flag": "it" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "España 1982 amplió el torneo a 24 selecciones e incluyó una segunda fase de grupos antes de las semifinales." },
+        { "key": "groups", "title": "Fase de grupos", "text": "En la fase de grupos hubo una goleada récord: Hungary v El Salvador 10–1. En la segunda fase, un partido clave fue Italy v Brazil 3–2." },
+        { "key": "semis", "title": "Semifinales", "text": "Las semifinales fueron dramáticas: Italy v Poland 2–0; West Germany v France 3–3 (pen. 5–4)." },
+        { "key": "final", "title": "Final", "text": "La final fue Italy v West Germany 3–1." },
+        { "key": "champion", "title": "Campeón", "text": "Italia se consagró campeona tras crecer en el torneo y ganar una final sólida ante Alemania Federal." },
+        { "key": "facts", "title": "Hechos históricos", "text": "Fue el primer Mundial decidido por penales en una semifinal (West Germany v France 3–3, pen. 5–4). También es recordado por la expansión a 24 selecciones." }
+      ],
+      "phaseOrder": ["group stage", "second group stage", "semi-finals", "third-place match", "final"],
+      "venues": { "Default Venue": { "lat": 40.4168, "lon": -3.7038 } }
+    },
+
+    {
+      "year": 1986,
+      "host": "Mexico",
+      "hostFlag": "mx",
+      "audio": "audio/1986.mp3",
+      "mascot": "assets/mascots/1986.png",
+      "trophyIcon": "assets/icons/1986.png",
+      "champion": { "name": "Argentina", "flag": "ar" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "México 1986 reunió a 24 selecciones y se convirtió en uno de los torneos más recordados por su narrativa y sus figuras." },
+        { "key": "groups", "title": "Fase de grupos", "text": "En grupos hubo choques parejos y la campeona Argentina arrancó construyendo su camino. En octavos destacó Denmark v Spain 1–5 y Soviet Union v Belgium 3–4 (prórroga)." },
+        { "key": "semis", "title": "Semifinales", "text": "En semifinales: France v West Germany 0–2; Argentina v Belgium 2–0." },
+        { "key": "final", "title": "Final", "text": "La final fue Argentina v West Germany 3–2." },
+        { "key": "champion", "title": "Campeón", "text": "Argentina fue campeona y dejó una de las campañas más icónicas del Mundial." },
+        { "key": "facts", "title": "Hechos históricos", "text": "Se recuerdan partidos históricos como Argentina v England 2–1 y la tensión de duelos que se definieron por penales, como Brazil v France 1–1 (pen. 3–4)." }
+      ],
+      "phaseOrder": ["group stage", "round of 16", "quarter-finals", "semi-finals", "third-place match", "final"],
+      "venues": { "Default Venue": { "lat": 19.4326, "lon": -99.1332 } }
+    },
+
+    {
+      "year": 1990,
+      "host": "Italy",
+      "hostFlag": "it",
+      "audio": "audio/1990.mp3",
+      "mascot": "assets/mascots/1990.png",
+      "trophyIcon": "assets/icons/1990.png",
+      "champion": { "name": "Germany", "flag": "de" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "Italia 1990 se jugó con 24 selecciones y tuvo muchos partidos cerrados, con varias series definidas en penales." },
+        { "key": "groups", "title": "Fase de grupos", "text": "El torneo comenzó con una gran sorpresa: Cameroon v Argentina 1–0. En octavos, varios duelos fueron muy parejos, como Czechoslovakia v Costa Rica 4–1 y Republic of Ireland v Romania 0–0 (pen. 5–4)." },
+        { "key": "semis", "title": "Semifinales", "text": "En semifinales se vivió el drama de los penales: Argentina v Italy 1–1 (pen. 4–3); West Germany v England 1–1 (pen. 4–3)." },
+        { "key": "final", "title": "Final", "text": "La final fue West Germany v Argentina 1–0." },
+        { "key": "champion", "title": "Campeón", "text": "Alemania Federal ganó el título con un torneo muy sólido y un cierre ajustado ante Argentina." },
+        { "key": "facts", "title": "Hechos históricos", "text": "Fue una edición marcada por la paridad y por el protagonismo de los penales en rondas decisivas." }
+      ],
+      "phaseOrder": ["group stage", "round of 16", "quarter-finals", "semi-finals", "third-place match", "final"],
+      "venues": { "Default Venue": { "lat": 41.9028, "lon": 12.4964 } }
+    },
+
+    {
+      "year": 1994,
+      "host": "United States of America",
+      "hostFlag": "us",
+      "audio": "audio/1994.mp3",
+      "mascot": "assets/mascots/1994.png",
+      "trophyIcon": "assets/icons/1994.png",
+      "champion": { "name": "Brazil", "flag": "br" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "Estados Unidos 1994 reunió a 24 selecciones y terminó con una final histórica definida por penales." },
+        { "key": "groups", "title": "Fase de grupos", "text": "En grupos hubo partidos de mucha diferencia, como Russia v Cameroon 6–1, y varias selecciones sorprendieron con su rendimiento." },
+        { "key": "semis", "title": "Semifinales", "text": "En semifinales: Sweden v Brazil 0–1; Bulgaria v Italy 1–2." },
+        { "key": "final", "title": "Final", "text": "La final fue Brazil v Italy 0–0 (pen. 3–2) (penales)." },
+        { "key": "champion", "title": "Campeón", "text": "Brasil volvió a ser campeón, ganando un partido sin goles que se resolvió desde el punto penal." },
+        { "key": "facts", "title": "Hechos históricos", "text": "La final fue la primera en terminar 0–0 y definirse por penales. El torneo consolidó el formato moderno con alta audiencia en EE. UU." }
+      ],
+      "phaseOrder": ["group stage", "round of 16", "quarter-finals", "semi-finals", "third-place match", "final"],
+      "venues": { "Default Venue": { "lat": 38.9072, "lon": -77.0369 } }
+    },
+
+    {
+      "year": 1998,
+      "host": "France",
+      "hostFlag": "fr",
+      "audio": "audio/1998.mp3",
+      "mascot": "assets/mascots/1998.png",
+      "trophyIcon": "assets/icons/1998.png",
+      "champion": { "name": "France", "flag": "fr" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "Francia 1998 fue el primer Mundial con 32 selecciones, ampliando la fase final a 32 equipos." },
+        { "key": "groups", "title": "Fase de grupos", "text": "En la fase de grupos se vieron duelos muy abiertos y selecciones nuevas compitiendo a gran nivel. En octavos destacó Netherlands v Yugoslavia 2–1 y Argentina v England 2–2 (pen. 4–3)." },
+        { "key": "semis", "title": "Semifinales", "text": "En semifinales: Brazil v Netherlands 1–1 (pen. 4–2); France v Croatia 2–1." },
+        { "key": "final", "title": "Final", "text": "La final fue France v Brazil 3–0." },
+        { "key": "champion", "title": "Campeón", "text": "Francia ganó su primer Mundial en casa con una final contundente ante Brasil." },
+        { "key": "facts", "title": "Hechos históricos", "text": "El salto a 32 equipos cambió el torneo para siempre. Francia se convirtió en campeona como anfitriona con un 3–0 en la final." }
+      ],
+      "phaseOrder": ["group stage", "round of 16", "quarter-finals", "semi-finals", "third-place match", "final"],
+      "venues": { "Default Venue": { "lat": 48.8566, "lon": 2.3522 } }
+    },
+
+    {
+      "year": 2002,
+      "host": "South Korea",
+      "coHost": "Japan",
+      "hostFlag": "kr",
+      "audio": "audio/2002.mp3",
+      "mascot": "assets/mascots/2002.png",
+      "trophyIcon": "assets/icons/2002.png",
+      "champion": { "name": "Brazil", "flag": "br" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "Corea del Sur/Japón 2002 tuvo 32 selecciones y fue el primer Mundial coorganizado por dos países." },
+        { "key": "groups", "title": "Fase de grupos", "text": "La fase de grupos dejó sorpresas grandes, como France v Senegal 0–1, y varios favoritos sufrieron." },
+        { "key": "semis", "title": "Semifinales", "text": "En semifinales: Germany v South Korea 1–0; Brazil v Turkey 1–0." },
+        { "key": "final", "title": "Final", "text": "La final fue Germany v Brazil 0–2." },
+        { "key": "champion", "title": "Campeón", "text": "Brasil ganó su quinto título con un cierre efectivo y una final controlada ante Alemania." },
+        { "key": "facts", "title": "Hechos históricos", "text": "Fue el primer Mundial en Asia y el primero con dos sedes. También destacó por varias sorpresas en la fase de grupos." }
+      ],
+      "phaseOrder": ["group stage", "round of 16", "quarter-finals", "semi-finals", "third-place match", "final"],
+      "venues": { "Default Venue": { "lat": 37.5665, "lon": 126.978 } }
+    },
+
+    {
+      "year": 2006,
+      "host": "Germany",
+      "hostFlag": "de",
+      "audio": "audio/2006.mp3",
+      "mascot": "assets/mascots/2006.png",
+      "trophyIcon": "assets/icons/2006.png",
+      "champion": { "name": "Italy", "flag": "it" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "Alemania 2006 reunió a 32 selecciones y tuvo partidos muy intensos en eliminación directa." },
+        { "key": "groups", "title": "Fase de grupos", "text": "En la fase de grupos hubo goleadas como Argentina v Serbia and Montenegro 6–0, y varios duelos muy competitivos." },
+        { "key": "semis", "title": "Semifinales", "text": "En semifinales: Germany v Italy 0–2 (prórroga); France v Portugal 1–0." },
+        { "key": "final", "title": "Final", "text": "La final fue France v Italy 1–1 (pen. 3–5) (penales)." },
+        { "key": "champion", "title": "Campeón", "text": "Italia ganó su cuarto título en una final definida por penales ante Francia." },
+        { "key": "facts", "title": "Hechos históricos", "text": "El Mundial de 2006 es recordado por la gran semifinal entre Alemania e Italia y por el momento del cabezazo de Zidane en la final." }
+      ],
+      "phaseOrder": ["group stage", "round of 16", "quarter-finals", "semi-finals", "third-place match", "final"],
+      "venues": { "Default Venue": { "lat": 52.52, "lon": 13.405 } }
+    },
+
+    {
+      "year": 2010,
+      "host": "South Africa",
+      "hostFlag": "za",
+      "audio": "audio/2010.mp3",
+      "mascot": "assets/mascots/2010.png",
+      "trophyIcon": "assets/icons/2010.png",
+      "champion": { "name": "Spain", "flag": "es" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "Sudáfrica 2010 fue el primer Mundial en África, con 32 selecciones compitiendo." },
+        { "key": "groups", "title": "Fase de grupos", "text": "En la fase de grupos hubo partidos muy abiertos, como Portugal v North Korea 7–0, y varias sorpresas en octavos." },
+        { "key": "semis", "title": "Semifinales", "text": "En semifinales: Uruguay v Netherlands 2–3; Spain v Germany 1–0." },
+        { "key": "final", "title": "Final", "text": "La final fue Netherlands v Spain 0–1 (prórroga)." },
+        { "key": "champion", "title": "Campeón", "text": "España ganó su primer Mundial con un gol en prórroga de Iniesta, marcando su época dorada." },
+        { "key": "facts", "title": "Hechos históricos", "text": "Fue el primer Mundial en África y una final muy disputada que se resolvió en prórroga. España consolidó su era de dominio mundial." }
+      ],
+      "phaseOrder": ["group stage", "round of 16", "quarter-finals", "semi-finals", "third-place match", "final"],
+      "venues": { "Default Venue": { "lat": -26.2041, "lon": 28.0473 } }
+    },
+
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "hostFlag": "br",
+      "audio": "audio/2014.mp3",
+      "mascot": "assets/mascots/2014.png",
+      "trophyIcon": "assets/icons/2014.png",
+      "champion": { "name": "Germany", "flag": "de" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "El Mundial de 1950 se jugó en Brasil con 13 selecciones y un formato especial: fase de grupos y una fase final tipo liguilla de cuatro equipos (no hubo final única)." },
+        { "key": "groups", "title": "Fase de grupos", "text": "En grupos ya hubo sorpresas y goleadas: Brazil v Sweden 7–1, incluyendo un inesperado United States v England 1–0." },
+        { "key": "semis", "title": "Semifinales", "text": "No existieron semifinales: el campeón se definió por puntos en la fase final." },
+        { "key": "final", "title": "Final", "text": "El partido decisivo del cuadrangular final fue Uruguay v Brazil 2–1, conocido como el 'Maracanazo'." },
+        { "key": "champion", "title": "Campeón", "text": "Uruguay se consagró campeón tras ganar el duelo decisivo en el Maracanã y sumar los puntos necesarios en la liguilla final." },
+        { "key": "facts", "title": "Hechos históricos", "text": "Es el único Mundial que definió al campeón con una liguilla final de cuatro selecciones en vez de una final directa. El 'Maracanazo' quedó como uno de los resultados más impactantes de la historia." }
+      ],
+      "phaseOrder": ["group stage", "round of 16", "quarter-finals", "semi-finals", "third-place match", "final"],
+      "venues": { "Default Venue": { "lat": -15.7939, "lon": -47.8828 } }
+    },
+
+    {
+      "year": 2018,
+      "host": "Russia",
+      "hostFlag": "ru",
+      "audio": "audio/2018.mp3",
+      "mascot": "assets/mascots/2018.png",
+      "trophyIcon": "assets/icons/2018.png",
+      "champion": { "name": "France", "flag": "fr" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "Brasil 2014 tuvo 32 selecciones y fue escenario de la goleada histórica a Brasil en semifinales." },
+        { "key": "groups", "title": "Fase de grupos", "text": "La fase de grupos dejó muchos goles y duelos muy reñidos. En octavos resaltó Netherlands v Spain 5–1 (revancha de 2010)." },
+        { "key": "semis", "title": "Semifinales", "text": "En semifinales: Brazil v Germany 1–7; Argentina v Netherlands 0–0 (pen. 4–2)." },
+        { "key": "final", "title": "Final", "text": "La final fue Germany v Argentina 1–0 (prórroga)." },
+        { "key": "champion", "title": "Campeón", "text": "Alemania ganó su cuarto título con un gol de Götze en prórroga, tras la histórica goleada 7–1 a Brasil." },
+        { "key": "facts", "title": "Hechos históricos", "text": "La semifinal Brazil v Germany 1–7 fue uno de los resultados más impactantes de la historia del Mundial. Alemania culminó con el título en Brasil." }
+      ],
+      "phaseOrder": ["group stage", "round of 16", "quarter-finals", "semi-finals", "third-place match", "final"],
+      "venues": { "Default Venue": { "lat": 55.7558, "lon": 37.6173 } }
+    },
+
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "hostFlag": "qa",
+      "audio": "audio/2022.mp3",
+      "mascot": "assets/mascots/2022.png",
+      "trophyIcon": "assets/icons/2022.png",
+      "champion": { "name": "Argentina", "flag": "ar" },
+      "historySections": [
+        { "key": "overview", "title": "Resumen general", "text": "Qatar 2022 fue la primera Copa del Mundo en Medio Oriente y la última con 32 equipos antes de ampliarse." },
+        { "key": "groups", "title": "Fase de grupos", "text": "La fase de grupos dejó grandes sorpresas: Argentina v Saudi Arabia 1–2, y Marruecos sorprendió al mundo llegando a semifinales." },
+        { "key": "semis", "title": "Semifinales", "text": "En semifinales: Argentina v Croatia 3–0; Morocco v France 0–2." },
+        { "key": "final", "title": "Final", "text": "La final fue Argentina v France 3–3 (pen. 4–2) (prórroga y penales)." },
+        { "key": "champion", "title": "Campeón", "text": "Argentina ganó su tercer título tras una final espectacular 3–3 ante Francia, que se resolvió por penales." },
+        { "key": "facts", "title": "Hechos históricos", "text": "La final fue una de las mejores de la historia, con 3–3 en prórroga y penales. Marruecos fue el primer país árabe/africano en semifinales." }
+      ],
+      "phaseOrder": ["group stage", "round of 16", "quarter-finals", "semi-finals", "third-place match", "final"],
+      "venues": { "Default Venue": { "lat": 25.2854, "lon": 51.531 } }
+    }
+  ]
+}
