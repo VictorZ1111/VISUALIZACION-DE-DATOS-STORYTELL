@@ -55,9 +55,9 @@ function showFactsLogo(feature, cup) {
   // Usar logo del mundial desde assets/logos/[año].png
   factsLogo.src = `assets/logos/${cup.year}.png`;
   
-  // Fallback a copa1.png si no existe el logo
+  // Fallback a COPA1.png si no existe el logo
   factsLogo.onerror = () => {
-    factsLogo.src = "assets/icons/copa1.png";
+    factsLogo.src = "assets/icons/COPA1.png";
   };
   
   // Calcular centro del país en coordenadas de pantalla

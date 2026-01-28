@@ -492,7 +492,7 @@ export function addInsightsStep(){
   conclusionStep.innerHTML = `
     <div class="insightsWrap">
       <div class="insightsConclusion">
-        <img src="assets/icons/copa1.png" class="conclusionTrophy" alt="Copa" />
+        <img src="assets/icons/COPA1.png" class="conclusionTrophy" alt="Copa" />
         <h3>Conclusiones del Análisis</h3>
         <p>A través de este recorrido por <strong>93 años de historia mundialista</strong>, hemos explorado:</p>
         <ul>
